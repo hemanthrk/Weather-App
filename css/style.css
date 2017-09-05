@@ -1,0 +1,30 @@
+
+thead{
+	text-transform: uppercase;
+}
+.celc_tag{
+	color:blue;
+}
+
+.display_today{
+	
+	font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.square{
+	background: #fff;
+	border:1px solid #999;
+	float: left;
+	height: 450px;
+	width: 450px;
+	text-align: center;
+	margin-right: -1px;
+	margin-top: -1px;
+	border-radius: 0 0 5px 5px;
+	 box-shadow: 0 10px 5px #999999;
+	
+	 background-repeat: no-repeat;
+	 background-size: contain;
+
+}

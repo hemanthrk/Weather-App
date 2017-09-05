@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Weather-APP</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/jumbotron.css">
+	<link rel="stylesheet"  href="./css/style.css">
+	<link rel="stylesheet"  href="./css/weather-icons-wind.css">
+	<link rel="stylesheet"  href="./css/weather-icons-wind.min.css">
+	<link rel="stylesheet"  href="./css/weather-icons.css">
+	<link rel="stylesheet"  href="./css/weather-icons-wind.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Weather-App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          
+          
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0" id="cityNameSubmit">
+          <input class="form-control mr-sm-2" type="text" placeholder="Enter a City name" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h3 class="display_today">Hello, <span class="cityName"></span>!</h3>
+        <div class="row">
+        	<div class="col-md-2">
+        		Today's Weather<br> <span class="today_dateTime"></span><br> <p><small class="celc_tag" name="temp_format" data-value="celsius">C </small><small >|</small><small name="temp_format" data-value="fahrenheit"> F </small></p>
+        	</div>
+        	<div class="col-md-1">
+        		<!--<span class="today_wea_img_sp"><img id="wea_img" src=""></span>-->
+        		<span class="today_wea_img_sp"></span>
+        	</div>
+        	<div class="col-md-3">
+        		<span class="today_txt_desc"></span><br><span class="today_Act_temp"></span><br><span class="today_Feels_likeTemp"></span><br><span class="today_precip"></span><br><span class="today_wind"></span><br><span class="today_humid"></span>
+        	</div>
+        	<div class="col-md-1">
+        		
+        	</div>
+        	<div class="col-md-1">
+        		
+        	</div>
+        </div>
+        
+       
+       
+      </div>
+    </div>
+    <div class="container">
+  <h2><span class="cityName"></span><small> &nbsp 7 day Past Week Weather</small></h2>
+             
+  <table id="history_weather_table" class="table table-hover">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Description</th>
+        <th>Temperature</th>
+        <th>Precip</th>
+        <th>Wind</th>
+        <th>Humidity</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+    </tbody>
+  </table>
+</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
